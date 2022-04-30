@@ -29,21 +29,21 @@
 
 :root {
     --base-font: "思源宋体 CN Medium", "Helvetica Neue", "Noto Sans", -apple-system, Ubuntu,
-    "Microsoft YaHei", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans",
-    "Noto Sans CJK SC", "PingFang SC", "Hiragino Sans GB", "Source Han Sans SC",
-    "Source Han Sans CN", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti",
-    SimHei, "WenQuanYi Zen Hei Sharp", "Source Sans Pro", sans-serif;
+        "Microsoft YaHei", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans",
+        "Noto Sans CJK SC", "PingFang SC", "Hiragino Sans GB", "Source Han Sans SC",
+        "Source Han Sans CN", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti",
+        SimHei, "WenQuanYi Zen Hei Sharp", "Source Sans Pro", sans-serif;
     --title-font: "思源宋体 CN Medium", "EB Garamond", Georgia, "Noto Serif", "Noto Serif CJK SC",
-    "Nimbus Roman No9 L", "Songti SC", "Source Han Serif SC",
-    "Source Han Serif CN", STSong, "AR PL New Sung", "AR PL SungtiL GB", NSimSun,
-    SimSun, "TW\-Sung", "WenQuanYi Bitmap Song", "AR PL UMing CN",
-    "AR PL UMing HK", "AR PL UMing TW", "AR PL UMing TW MBE", PMingLiU, MingLiU,
-    "Ubuntu", "Source Sans Pro", serif;
+        "Nimbus Roman No9 L", "Songti SC", "Source Han Serif SC",
+        "Source Han Serif CN", STSong, "AR PL New Sung", "AR PL SungtiL GB", NSimSun,
+        SimSun, "TW\-Sung", "WenQuanYi Bitmap Song", "AR PL UMing CN",
+        "AR PL UMing HK", "AR PL UMing TW", "AR PL UMing TW MBE", PMingLiU, MingLiU,
+        "Ubuntu", "Source Sans Pro", serif;
     --monospace: "JetBrains Mono", "Fira Code", "Cascadia Code", "Sarasa Term SC",
-    Monaco, "Deja Vu Sans Mono", Consolas, "Lucida Console", "Andale Mono",
-    "Roboto Mono", Courier, Monospace !important;
+        Monaco, "Deja Vu Sans Mono", Consolas, "Lucida Console", "Andale Mono",
+        "Roboto Mono", Courier, Monospace !important;
 }
-  
+
 
 /* 夜间 */
 /* dark */
@@ -109,7 +109,9 @@ footer {
     border: none;
 }
 
-.cm-s-inner .CodeMirror-guttermarker, .cm-s-inner .CodeMirror-guttermarker-subtle, .cm-s-inner .CodeMirror-linenumber {
+.cm-s-inner .CodeMirror-guttermarker,
+.cm-s-inner .CodeMirror-guttermarker-subtle,
+.cm-s-inner .CodeMirror-linenumber {
     color: rgb(83, 127, 126);
 }
 
@@ -125,11 +127,15 @@ footer {
     background: rgba(255, 255, 255, 0.10);
 }
 
-.cm-s-inner .CodeMirror-line::selection, .cm-s-inner .CodeMirror-line > span::selection, .cm-s-inner .CodeMirror-line > span > span::selection {
+.cm-s-inner .CodeMirror-line::selection,
+.cm-s-inner .CodeMirror-line>span::selection,
+.cm-s-inner .CodeMirror-line>span>span::selection {
     background: rgb(255, 255, 255);
 }
 
-.cm-s-inner .CodeMirror-line::-moz-selection, .cm-s-inner .CodeMirror-line > span::-moz-selection, .cm-s-inner .CodeMirror-line > span > span::-moz-selection {
+.cm-s-inner .CodeMirror-line::-moz-selection,
+.cm-s-inner .CodeMirror-line>span::-moz-selection,
+.cm-s-inner .CodeMirror-line>span>span::-moz-selection {
     background: rgba(255, 0, 0, 0.1);
 }
 
@@ -236,11 +242,11 @@ footer {
 
 
 
-  /* selected text */
-  .CodeMirror-selected,
-  .CodeMirror-selectedtext {
+/* selected text */
+.CodeMirror-selected,
+.CodeMirror-selectedtext {
     background: var(--blue) !important;
-  }
+}
 
 /* 打印 */
 /* print */
@@ -263,7 +269,8 @@ footer {
     }
 
     @page {
-        size: A4; /* PDF A4 */
+        size: A4;
+        /* PDF A4 */
         margin-left: 0;
         margin-right: 0;
     }
@@ -300,11 +307,11 @@ body {
     overflow-x: hidden;
 }
 
-body > *:first-child {
+body>*:first-child {
     margin-top: 0 !important;
 }
 
-body > *:last-child {
+body>*:last-child {
     margin-bottom: 0 !important;
 }
 
@@ -422,8 +429,8 @@ hr {
 }
 
 /* 列表 */
-li > ol,
-li > ul {
+li>ol,
+li>ul {
     margin: 0 0;
 }
 
@@ -508,9 +515,7 @@ mark {
 }
 
 /* 斜体 */
-#write em {
-
-}
+#write em {}
 
 /* 行间公式 */
 /* inline code */
@@ -537,7 +542,7 @@ tt {
     padding: 1px 2px;
 }
 
-.md-task-list-item > input {
+.md-task-list-item>input {
     margin-left: -1.3em;
 }
 
@@ -552,13 +557,13 @@ tt {
     margin-top: 0 !important;
 }
 
-.mathjax-block > .code-tooltip {
+.mathjax-block>.code-tooltip {
     bottom: 0.375rem;
 }
 
 /* 图片 */
 /* imag */
-.md-image > .md-meta {
+.md-image>.md-meta {
     border-radius: 20px 20px 20px 20px;
     font-family: var(--monospace);
     padding: 2px 0 0 4px;
@@ -678,7 +683,7 @@ pre {
 }
 
 /* task list */
-#write .md-task-list-item > input {
+#write .md-task-list-item>input {
     -webkit-appearance: initial;
     display: block;
     position: absolute;
@@ -691,16 +696,16 @@ pre {
 }
 
 
-#write .md-task-list-item > input:focus {
+#write .md-task-list-item>input:focus {
     outline: none;
     box-shadow: none;
 }
 
-#write .md-task-list-item > input:hover {
+#write .md-task-list-item>input:hover {
     background: #ddd;
 }
 
-#write .md-task-list-item > input[checked]::before {
+#write .md-task-list-item>input[checked]::before {
     content: "";
     position: absolute;
     top: 20%;
@@ -711,7 +716,7 @@ pre {
     background: #333;
 }
 
-#write .md-task-list-item > input[checked]::after {
+#write .md-task-list-item>input[checked]::after {
     content: "";
     position: absolute;
     top: 46%;
@@ -722,20 +727,20 @@ pre {
     background: #333;
 }
 
-#write .md-task-list-item > p {
+#write .md-task-list-item>p {
     transition: color 0.3s, opacity 0.3s;
 }
 
-#write .md-task-list-item.task-list-done > p {
+#write .md-task-list-item.task-list-done>p {
     color: #b4b4b4;
     text-decoration: line-through;
 }
 
-#write .md-task-list-item.task-list-done > p > .md-emoji {
+#write .md-task-list-item.task-list-done>p>.md-emoji {
     opacity: 0.5;
 }
 
-#write .md-task-list-item.task-list-done > p > .md-link > a {
+#write .md-task-list-item.task-list-done>p>.md-link>a {
     opacity: 0.6;
 }
 
@@ -779,11 +784,11 @@ pre {
 }
 
 /* task list */
-#write .md-task-list-item > input[checked]::before {
+#write .md-task-list-item>input[checked]::before {
     background: rgb(255, 255, 255);
 }
 
-#write .md-task-list-item > input[checked]::after {
+#write .md-task-list-item>input[checked]::after {
     background: rgb(255, 255, 255);
 }
 
@@ -813,8 +818,8 @@ pre {
 
 
 ::-webkit-scrollbar-thumb:hover {
-	background: rgba(157, 165, 183, 0.7);
-} 
+    background: rgba(157, 165, 183, 0.7);
+}
 
 
 /* 源代码按钮 */
@@ -828,42 +833,31 @@ pre {
 .export-detail {
     color: var(--text-color) !important;
     background: transparent !important;
-  }
-  
-  .export-item.active {
+}
+
+.export-item.active {
     background: var(--Mica) !important;
     border-radius: 6px !important;
-  }
-  
-  .export-detail textarea{
+}
+
+.export-detail textarea {
     background: transparent;
     border-radius: 6px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-  }
-  
-  .export-items-list-control {
+}
+
+.export-items-list-control {
     background: var(--Mica) !important;
     border-radius: 6px !important;
-  }
-  
-  .icon-dot-3:before {
+}
+
+.icon-dot-3:before {
     color: var(--text-color);
     background: var(--Mica) !important;
     z-index: 1;
-  }
-  
-  .row.text-input select {
+}
+
+.row.text-input select {
     background: var(--Mica) !important;
     width: 510px !important;
-  }
-
-  
-
-
-
-
-
-
-
-
-
+}

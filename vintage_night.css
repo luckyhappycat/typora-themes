@@ -74,20 +74,20 @@ html {
 }
 
 ::selection {
-  color: #131313;
-  background: #ee8241;
+    color: #131313;
+    background: #ee8241;
 }
 
 div .long-btn {
-	color: #131313;
+    color: #131313;
 }
 
 button .btn {
-	color: #131313;
+    color: #131313;
 }
 
 tr {
-	color: #131313;
+    color: #131313;
 }
 
 /***************** 这里定义水平线的样式 ****************/
@@ -291,7 +291,7 @@ hr {
 }
 
 /* .task-list-not-done {
-    
+
 } */
 
 /*
@@ -333,39 +333,39 @@ hr {
 
 /***************** 这里定义代码的样式 ****************/
 #write span .cm-variable {
-	color: #eeffff;
+    color: #eeffff;
 }
 
 #write span .cm-meta {
-	color: #f7397d;
+    color: #f7397d;
 }
 
 #write span .cm-variable-3 {
-	color: #ee8241;
+    color: #ee8241;
 }
 
 #write span .cm-keyword {
-	color: #f7397d;
+    color: #f7397d;
 }
 
 #write span .cm-def {
-	color: #abd166;
+    color: #abd166;
 }
 
 #write span .cm-comment {
-	color: #c99677;
+    color: #c99677;
 }
 
 #write span .cm-string {
-	color: #c99677;
+    color: #c99677;
 }
 
 #write span .cm-operator {
-	color: #9cdcfe;
+    color: #9cdcfe;
 }
 
 #write span .cm-number {
-	color: #b5cea8;
+    color: #b5cea8;
 }
 
 #write code {

@@ -46,15 +46,15 @@ html {
     font-style: italic;
     font-weight: bold;
     src: local('STIX2Text Bold Italic'),
-    url('./academic/STIX2Text-BoldItalic.woff') format('woff'),
-    url('ttps://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Main-BoldItalic.woff') format('woff')
+        url('./academic/STIX2Text-BoldItalic.woff') format('woff'),
+        url('ttps://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/fonts/HTML-CSS/TeX/woff/MathJax_Main-BoldItalic.woff') format('woff')
 }
 
 @font-face {
     font-family: 'STIX2Math';
     font-style: italic;
     font-weight: bold;
-    src: local('STIX2Math'),url('./academic/STIX2Math.woff') format('woff')
+    src: local('STIX2Math'), url('./academic/STIX2Math.woff') format('woff')
 }
 
 @font-face {
@@ -63,18 +63,21 @@ html {
     font-weight: normal;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'Lato';
     src: url('./law/lato-v14-latin-italic.woff') format('woff');
     font-weight: normal;
     font-style: italic;
 }
+
 @font-face {
     font-family: 'Lato';
     src: url('./law/lato-v14-latin-700.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
+
 @font-face {
     font-family: 'Lato';
     src: url('./law/lato-v14-latin-700italic.woff') format('woff');
@@ -102,16 +105,22 @@ html {
     padding-top: 0 !important;
 }
 
-a, a:visited {
+a,
+a:visited {
     color: #a00;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: inherit;
     line-height: 1em;
 }
 
-h1  {
+h1 {
     font-size: 2em;
 }
 
@@ -127,7 +136,7 @@ h4 {
     font-size: 1.2em;
 }
 
-h5  {
+h5 {
     font-size: 1.1em;
 }
 
@@ -142,7 +151,8 @@ p {
     line-height: normal;
 }
 
-pre, code {
+pre,
+code {
     font-family: 'Latin Modern Mono Light', "Latin Modern Mono", monospace !important;
 }
 
@@ -182,7 +192,8 @@ a.md-toc-inner {
     text-decoration: underline;
 }
 
-.cm-s-typora-default .cm-header, .cm-s-typora-default .cm-property {
+.cm-s-typora-default .cm-header,
+.cm-s-typora-default .cm-property {
     color: black;
 }
 
@@ -205,7 +216,8 @@ mark {
     background: #fff387;
 }
 
-td, th {
+td,
+th {
     border: 1px solid;
     padding-left: 1ch;
     padding-right: 1ch;
@@ -231,14 +243,14 @@ pre.md-meta-block {
     margin-top: 0.28em;
 }
 
-.md-task-list-item.task-list-done > p {
+.md-task-list-item.task-list-done>p {
     color: #aaaaaa;
 }
 
 blockquote {
-	border: 1px solid #a2a9b1;
-	border-radius: 4px;
-	box-shadow: 1px 1px 1px #ccc;
+    border: 1px solid #a2a9b1;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px #ccc;
     background-color: #f3f3f3;
     padding: 5px;
     margin: 0.75em;
@@ -250,13 +262,13 @@ blockquote li::after {
     position: initial;
 }
 
-#write > blockquote {
+#write>blockquote {
     padding: 5px 30px 5px 10px;
-	margin-left: -10px;
+    margin-left: -10px;
     width: calc(100% + 20px);
 }
 
-#write >  .md-fences-with-lineno {
+#write>.md-fences-with-lineno {
     margin-left: -33px;
     color: black;
 }
@@ -273,15 +285,16 @@ li {
     margin: 0;
 }
 
-ol, ul {
+ol,
+ul {
     padding-left: 30px;
 }
 
-ol ol li > * {
+ol ol li>* {
     font-weight: normal;
 }
 
-ol ol ol li > * {
+ol ol ol li>* {
     font-weight: normal;
 }
 

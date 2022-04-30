@@ -36,16 +36,16 @@ body {
     padding-left: 0.5rem;
 }
 
-#write > ul:first-child,
-#write > ol:first-child {
+#write>ul:first-child,
+#write>ol:first-child {
     margin-top: 30px;
 }
 
-body > *:first-child {
+body>*:first-child {
     margin-top: 0 !important;
 }
 
-body > *:last-child {
+body>*:last-child {
     margin-bottom: 0 !important;
 }
 
@@ -156,8 +156,8 @@ table {
     margin: 0.8em 0;
 }
 
-li > ol,
-li > ul {
+li>ol,
+li>ul {
     margin: 0 0;
 }
 
@@ -171,25 +171,25 @@ hr {
     box-sizing: content-box;
 }
 
-body > h2:first-child {
+body>h2:first-child {
     margin-top: 0;
     padding-top: 0;
 }
 
-body > h1:first-child {
+body>h1:first-child {
     margin-top: 0;
     padding-top: 0;
 }
 
-body > h1:first-child + h2 {
+body>h1:first-child+h2 {
     margin-top: 0;
     padding-top: 0;
 }
 
-body > h3:first-child,
-body > h4:first-child,
-body > h5:first-child,
-body > h6:first-child {
+body>h3:first-child,
+body>h4:first-child,
+body>h5:first-child,
+body>h6:first-child {
     margin-top: 0;
     padding-top: 0;
 }
@@ -314,7 +314,8 @@ table tr td:last-child {
     padding-left: 12px;
 }
 
-#write code, tt {
+#write code,
+tt {
     padding: 2px 4px;
     border-radius: 2px;
     font-family: var(--font-monospace);
@@ -355,7 +356,7 @@ tt {
     color: #22a2c9;
 }
 
-.md-task-list-item > input {
+.md-task-list-item>input {
     margin-left: -1.3em;
 }
 
@@ -393,31 +394,31 @@ tt {
     margin-top: 0 !important;
 }
 
-.mathjax-block > .code-tooltip {
+.mathjax-block>.code-tooltip {
     bottom: .375rem;
 }
 
-#write > h3.md-focus:before {
+#write>h3.md-focus:before {
     left: -1.5625rem;
     top: .375rem;
 }
 
-#write > h4.md-focus:before {
+#write>h4.md-focus:before {
     left: -1.5625rem;
     top: .285714286rem;
 }
 
-#write > h5.md-focus:before {
+#write>h5.md-focus:before {
     left: -1.5625rem;
     top: .285714286rem;
 }
 
-#write > h6.md-focus:before {
+#write>h6.md-focus:before {
     left: -1.5625rem;
     top: .285714286rem;
 }
 
-.md-image > .md-meta {
+.md-image>.md-meta {
     border-radius: 3px;
     font-family: var(--font-monospace);
     padding: 2px 0 0 4px;

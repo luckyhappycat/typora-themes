@@ -29,8 +29,8 @@ body {
     width: 100%;
 }
 
-#write > ul:first-child,
-#write > ol:first-child {
+#write>ul:first-child,
+#write>ol:first-child {
     margin-top: 30px;
 }
 
@@ -158,12 +158,12 @@ h6 {
     margin-bottom: 0.5rem;
 }
 
-#write > h1.md-focus:before,
-#write > h2.md-focus:before,
-#write > h3.md-focus:before,
-#write > h4.md-focus:before,
-#write > h5.md-focus:before,
-#write > h6.md-focus:before {
+#write>h1.md-focus:before,
+#write>h2.md-focus:before,
+#write>h3.md-focus:before,
+#write>h4.md-focus:before,
+#write>h5.md-focus:before,
+#write>h6.md-focus:before {
     color: var(--light-text-color);
     border: none;
     position: absolute;
@@ -173,37 +173,37 @@ h6 {
     line-height: 1;
 }
 
-#write > h1.md-focus:before {
+#write>h1.md-focus:before {
     content: "h1";
     top: 1.15rem;
     left: -1.75rem;
 }
 
-#write > h2.md-focus:before {
+#write>h2.md-focus:before {
     content: "h2";
     top: 0.75rem;
     left: -1.75rem;
 }
 
-#write > h3.md-focus:before {
+#write>h3.md-focus:before {
     content: "h3";
     top: 0.575rem;
     left: -1.75rem;
 }
 
-#write > h4.md-focus:before {
+#write>h4.md-focus:before {
     content: "h4";
     top: 0.4rem;
     left: -1.75rem;
 }
 
-#write > h5.md-focus:before {
+#write>h5.md-focus:before {
     content: "h5";
     top: 0.25rem;
     left: -1.75rem;
 }
 
-#write > h6.md-focus:before {
+#write>h6.md-focus:before {
     content: "h6";
     top: 0.25rem;
     left: -1.75rem;
@@ -232,8 +232,8 @@ dl {
     margin: 0.5rem 0rem 1.5rem 0rem;
 }
 
-li > ol,
-li > ul {
+li>ol,
+li>ul {
     margin: 0 0;
 }
 
@@ -362,7 +362,7 @@ table tr td:last-child {
     transition-property: opacity;
 }
 
-.ty-table-edit + .md-table {
+.ty-table-edit+.md-table {
     margin-top: 3rem;
 }
 
@@ -449,6 +449,7 @@ table tr td:last-child {
     color: white;
     height: 100%;
 }
+
 .CodeMirror.cm-s-typora-default div.CodeMirror-cursor {
     border-left: solid 2px var(--light-text-color-brighter);
 }
@@ -469,10 +470,10 @@ table tr td:last-child {
 
 .cm-s-inner .CodeMirror-line::selection,
 .cm-s-inner .CodeMirror-line::-moz-selection,
-.cm-s-inner .CodeMirror-line > span::selection,
-.cm-s-inner .CodeMirror-line > span::-moz-selection,
-.cm-s-inner .CodeMirror-line > span > span::selection,
-.cm-s-inner .CodeMirror-line > span > span::-moz-selection {
+.cm-s-inner .CodeMirror-line>span::selection,
+.cm-s-inner .CodeMirror-line>span::-moz-selection,
+.cm-s-inner .CodeMirror-line>span>span::selection,
+.cm-s-inner .CodeMirror-line>span>span::-moz-selection {
     background-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -662,15 +663,18 @@ code {
 }
 
 .md-diagram-panel text {
-    fill: var(--text-color) !important /*required*/;
+    fill: var(--text-color) !important
+        /*required*/
+    ;
 }
 
 .md-diagram-panel-error {
     color: var(--danger-color);
 }
+
 /*CHECKBOXES*/
 
-.md-task-list-item > input:before,
+.md-task-list-item>input:before,
 input[type="checkbox"]:before {
     border-radius: 0.2rem;
     margin-top: -0.08rem;
@@ -684,25 +688,25 @@ input[type="checkbox"]:before {
     transition-property: background-color;
 }
 
-.md-task-list-item:hover > input:before,
+.md-task-list-item:hover>input:before,
 input[type="checkbox"]:hover:before {
     background-color: var(--boxes-darker);
 }
 
-.md-task-list-item > input:checked:before,
-.md-task-list-item > input[checked]:before,
+.md-task-list-item>input:checked:before,
+.md-task-list-item>input[checked]:before,
 input[type="checkbox"]:checked:before {
     background-color: var(--primary-color);
 }
 
-.md-task-list-item:hover > input:checked:before,
-.md-task-list-item:hover > input[checked]:before,
+.md-task-list-item:hover>input:checked:before,
+.md-task-list-item:hover>input[checked]:before,
 input[type="checkbox"]:hover:checked:before {
     background-color: var(--primary-color-darker);
 }
 
-.md-task-list-item > input:after,
-.md-task-list-item > input:after,
+.md-task-list-item>input:after,
+.md-task-list-item>input:after,
 input[type="checkbox"]:after {
     transform: rotate(-45deg);
     position: absolute;
@@ -719,8 +723,8 @@ input[type="checkbox"]:after {
     transition-property: opacity;
 }
 
-.md-task-list-item > input:checked:after,
-.md-task-list-item > input[checked]:after,
+.md-task-list-item>input:checked:after,
+.md-task-list-item>input[checked]:after,
 input[type="checkbox"]:checked:after {
     opacity: 1;
 }
@@ -766,7 +770,7 @@ input[type="checkbox"]:checked:after {
     color: var(--light-text-color);
 }
 
-.md-image > .md-meta {
+.md-image>.md-meta {
     border-radius: 3px;
     padding: 2px 0px 0px 4px;
     font-size: 0.9em;
@@ -800,7 +804,7 @@ input[type="checkbox"]:checked:after {
     margin-top: 4.5rem;
 }
 
-#write div.md-toc-tooltip + .md-toc-content {
+#write div.md-toc-tooltip+.md-toc-content {
     padding-top: 1rem;
 }
 
@@ -869,7 +873,7 @@ input[type="checkbox"]:checked:after {
     opacity: 1;
 }
 
-.md-rawblock-on-edit > .md-rawblock-tooltip {
+.md-rawblock-on-edit>.md-rawblock-tooltip {
     padding-right: 0px;
 }
 
@@ -1240,12 +1244,12 @@ body.html-for-mac #typora-sidebar .ty-search-item-line {
 }
 
 /*no left border*/
-#typora-sidebar .file-tree-node.active > .file-node-background {
+#typora-sidebar .file-tree-node.active>.file-node-background {
     border: none;
 }
 
 /*no dotted highlighting*/
-.file-library-node:not(.file-node-root):focus > .file-node-content {
+.file-library-node:not(.file-node-root):focus>.file-node-content {
     outline: none;
 }
 
@@ -1266,17 +1270,12 @@ body.html-for-mac #typora-sidebar .ty-search-item-line {
     transition-property: background-color, color;
 }
 
-#typora-sidebar
-    #ty-sidebar-footer
-    li:not(.file-sort-item):not(:first-child):not(.empty-menu-group):not(.folder-menu-group):hover {
+#typora-sidebar #ty-sidebar-footer li:not(.file-sort-item):not(:first-child):not(.empty-menu-group):not(.folder-menu-group):hover {
     color: var(--primary-color);
     background-color: var(--boxes);
 }
 
-#typora-sidebar
-    #ty-sidebar-footer
-    .file-action-item.file-sort-item
-    > span:first-of-type {
+#typora-sidebar #ty-sidebar-footer .file-action-item.file-sort-item>span:first-of-type {
     line-height: 2rem;
 }
 
@@ -1289,15 +1288,12 @@ body.html-for-mac #typora-sidebar .ty-search-item-line {
     cursor: pointer;
 }
 
-body.html-for-mac
-    .file-tree-node:not(.file-node-root):not(.file-node-expanded)
-    .file-node-background {
+body.html-for-mac .file-tree-node:not(.file-node-root):not(.file-node-expanded) .file-node-background {
     transition-duration: 0.2s;
     transition-property: background-color;
 }
 
-.file-tree-node:not(.file-node-root):not(.file-node-expanded):hover
-    .file-node-background {
+.file-tree-node:not(.file-node-root):not(.file-node-expanded):hover .file-node-background {
     background-color: var(--borders);
 }
 
@@ -1327,9 +1323,15 @@ body.html-for-mac
 }
 
 #typora-quick-open-input .input {
-    box-shadow: none !important /*required*/;
-    border: none !important /*required*/;
-    font-weight: 400 !important /*required*/;
+    box-shadow: none !important
+        /*required*/
+    ;
+    border: none !important
+        /*required*/
+    ;
+    font-weight: 400 !important
+        /*required*/
+    ;
     margin: 0.5rem;
     margin-left: 0.8rem;
 }
@@ -1505,7 +1507,7 @@ body.html-for-mac
 }
 
 /*preferences stuff*/
-.ty-preferences .dropdown-menu > li,
+.ty-preferences .dropdown-menu>li,
 .dropdown-item {
     font-weight: 500;
     font-size: 1rem;
@@ -1531,7 +1533,9 @@ body.html-for-mac
 /*preferences export*/
 
 .export-detail {
-    background-color: transparent !important /*required*/;
+    background-color: transparent !important
+        /*required*/
+    ;
 }
 
 .export-items-list .separator {
@@ -1540,20 +1544,28 @@ body.html-for-mac
 }
 
 .export-items-list-control {
-    background-color: var(--boxes) !important /*required*/;
+    background-color: var(--boxes) !important
+        /*required*/
+    ;
 }
 
 .export-item {
-    padding: 0.4rem !important /*required*/;
+    padding: 0.4rem !important
+        /*required*/
+    ;
     color: var(--light-text-color-darker);
     font-weight: 500;
     cursor: pointer;
 }
 
 .export-item.active {
-    background-color: transparent !important /*required*/;
+    background-color: transparent !important
+        /*required*/
+    ;
     color: var(--primary-color);
-    font-weight: 500 !important /*required*/;
+    font-weight: 500 !important
+        /*required*/
+    ;
 }
 
 /*DROPDOWN*/
@@ -1566,7 +1578,7 @@ body.html-for-mac
     user-select: none;
 }
 
-.dropdown-menu > li > a,
+.dropdown-menu>li>a,
 .auto-suggest-container li {
     font-weight: 500;
     font-size: 0.8rem;
@@ -1574,13 +1586,13 @@ body.html-for-mac
     transition-property: all;
 }
 
-.dropdown-menu > .active > a,
-.dropdown-menu > li > a:hover,
+.dropdown-menu>.active>a,
+.dropdown-menu>li>a:hover,
 .menu-style-btn.active,
 .auto-suggest-container li:hover,
 .auto-suggest-container li.active,
-.context-menu.dropdown-menu > .active > a,
-.context-menu.dropdown-menu > li > a:hover {
+.context-menu.dropdown-menu>.active>a,
+.context-menu.dropdown-menu>li>a:hover {
     color: var(--primary-color);
     background-color: var(--boxes);
 }
@@ -1689,7 +1701,7 @@ button.active,
     border-radius: 0.3rem 0rem 0rem 0.3rem;
 }
 
-.open > .dropdown-toggle.btn-primary {
+.open>.dropdown-toggle.btn-primary {
     background-color: var(--primary-color);
     border-color: transparent;
 }
@@ -1816,8 +1828,12 @@ button.active,
 }
 
 .clear-btn-icon {
-    top: 9px !important /*required*/;
-    right: 9px !important /*required*/;
+    top: 9px !important
+        /*required*/
+    ;
+    right: 9px !important
+        /*required*/
+    ;
 }
 
 .content tr.search-hit,
@@ -1888,13 +1904,19 @@ button.active,
 .searchpanel-search-option-btn {
     top: 9px;
     border: none;
-    color: var(--light-text-color-brighter) !important /*required*/;
+    color: var(--light-text-color-brighter) !important
+        /*required*/
+    ;
     transition-duration: 0.3s;
 }
 
 .searchpanel-search-option-btn:hover {
-    color: var(--primary-color) !important /*required*/;
-    background-color: transparent !important /*required*/;
+    color: var(--primary-color) !important
+        /*required*/
+    ;
+    background-color: transparent !important
+        /*required*/
+    ;
 }
 
 .searchpanel-search-option-btn.select,
@@ -2256,7 +2278,9 @@ footer.ty-footer {
 
 #about-content tbody tr:hover {
     color: var(--primary-color);
-    background-color: var(--boxes) !important /*required important*/;
+    background-color: var(--boxes) !important
+        /*required important*/
+    ;
 }
 
 .long-btn {
@@ -2276,7 +2300,9 @@ footer.ty-footer {
 
 .long-btn:hover {
     background-color: var(--primary-color);
-    color: white !important /*important required*/;
+    color: white !important
+        /*important required*/
+    ;
     border: 1px solid transparent;
     box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 6px,
         rgba(56, 132, 255, 0.2) 0px 0px 10px;
@@ -2347,7 +2373,9 @@ footer.ty-footer {
 }
 
 .megamenu-menu-panel tbody tr:hover {
-    background-color: var(--borders) !important /*required important*/;
+    background-color: var(--borders) !important
+        /*required important*/
+    ;
 }
 
 /*MIN MAX CLOSE*/
